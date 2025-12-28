@@ -1,0 +1,16 @@
+[package]
+name = "expand_nft"
+version = "2.0.0"
+authors = []
+
+[addresses]
+ExpandNFT = "_"
+
+[dev-addresses]
+ExpandNFT = "0xe64cf3f56d653f697589b56765100658fe8bf0daa6a718e18bb70ac235bfe565" 
+
+[dependencies]
+CedraFramework = { git = "https://github.com/cedra-labs/cedra-framework.git", subdir = "cedra-framework", rev = "main" }
+CedraTokenObjects = { git = "https://github.com/cedra-labs/cedra-framework.git", subdir = "cedra-token-objects", rev = "main" }
+
+[dev-dependencies] 
